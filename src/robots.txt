@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /404.php
+Allow: /
+Sitemap: http://2francaisauquebec.com/sitemap.xml

@@ -1,0 +1,24 @@
+# For OVH hosting #####
+Options -MultiViews
+#######################
+
+RewriteEngine On
+
+RewriteRule  ^$ /fr [L]
+
+RewriteRule  ^fr$ index.php
+RewriteRule  ^en$ index.php
+
+RewriteRule	fr/a-propos about.php [L]
+RewriteRule	en/about about.php [L]
+
+RewriteRule	fr/rss rss.php	[L]
+RewriteRule	en/rss rss.php	[L]
+
+RewriteRule fr/([0-9]+)-([a-zA-Z0-9\-]+)  comics.php?id=$1&url=$2
+RewriteRule en/([0-9]+)-([a-zA-Z0-9\-]+)  comics.php?id=$1&url=$2
+
+RewriteRule	fr/contact contact.php [L]
+RewriteRule	en/contact contact.php [L]
+
+ErrorDocument 404 /404.php

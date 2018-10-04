@@ -1,0 +1,282 @@
+// _l-header.scss
+
+.header {
+  &.is-sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid color(foreground);
+    padding: 3px 0 3px 0;
+    z-index: 10;
+  }
+
+  &__primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .is-sticky & {
+      margin: 0 15px 0 15px;
+    }
+  }
+
+  &__logo {
+    display: none;
+    width: 250px;
+
+    @include respond-to(medium) {
+      display: block;
+    }
+
+    .is-sticky & {
+      display: none;
+    }
+  }
+
+  &__title {
+
+    &__container {
+      display: flex;
+      align-items: center;
+    }
+
+    * {
+      font-family: font(secondary);
+      text-decoration: none;
+    }
+
+    &__number {
+      @include font-size(200px);
+
+      .is-sticky & {
+        @include font-size(60px);
+      }
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+    }
+
+    &__item {
+      @include font-size(55px);
+
+      .is-sticky & {
+        @include font-size(20px);
+      }
+
+      &:last-child {
+        @include font-size(100px);
+
+        .is-sticky & {
+          @include font-size(35px);
+        }
+      }
+    }
+
+    .is-sticky & {
+      margin: 0;
+    }
+  }
+
+  &__nav {
+    text-align: center;
+    margin-top: -40px;
+
+    @include respond-to(medium) {
+      margin-top: inherit;
+    }
+
+    .is-sticky & {
+      margin: 0 15px 0 15px;
+    }
+
+    &.margin-top {
+      .is-sticky & {
+        margin-top: 16px;
+      }
+    }
+
+    &__trigger {
+      appearance: none;
+      border: 0;
+      margin: 0;
+      padding: 0;
+      outline: none;
+      cursor: pointer;
+      font-family: font(secondary);
+      @include font-size(45px);
+
+      @include respond-to(medium) {
+        display: none;
+      }
+
+      .is-sticky & {
+        @include font-size(30px);
+      }
+
+      .burger {
+        width: 40px;
+        height: 30px;
+        position: relative;
+        cursor: pointer;
+        display: inline-block;
+        margin-right: 10px;
+        @include transition();
+
+        .is-sticky & {
+          width: 30px;
+          height: 20px;
+        }
+
+        span {
+          display: block;
+          position: absolute;
+          height: 5px;
+          width: 100%;
+          background: color(foreground);
+          border-radius: 9px;
+          opacity: 1;
+          left: 0;
+          transition: .25s ease-in-out;
+
+          .is-sticky & {
+            height: 3px;
+          }
+
+          &:nth-child(1) {
+            top: 0;
+
+            .is-open & {
+              top: 18px;
+              width: 0%;
+              left: 50%;
+            }
+          }
+
+          &:nth-child(2) {
+            .is-open & {
+              transform: rotate(45deg);
+            }
+          }
+
+          &:nth-child(3) {
+            .is-open & {
+              transform: rotate(-45deg);
+            }
+          }
+
+          &:nth-child(4) {
+            .is-open & {
+              top: 18px;
+              width: 0%;
+              left: 50%;
+            }
+          }
+
+          &:nth-child(2), &:nth-child(3) {
+            top: 12px;
+
+            .is-sticky & {
+              top: 7px;
+            }
+          }
+
+          &:nth-child(4) {
+            top: 25px;
+
+            .is-sticky & {
+              top: 14px;
+            }
+          }
+        }
+      }
+    }
+
+    .lang {
+      display: inline-block;
+      margin-left: 20px;
+
+      @include respond-to(medium) {
+        display: none;
+      }
+
+      .is-sticky & {
+        * {
+          @include font-size(30px);
+
+          @include respond-to(medium) {
+            font-size: inherit;
+          }
+        }
+      }
+    }
+
+    &__content {
+      max-height: 0;
+      overflow: hidden;
+      @include transition();
+
+      @include respond-to(medium) {
+        max-height: 300px;
+      }
+
+      .is-open & {
+        max-height: 300px;
+      }
+    }
+
+    &__primary {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      @include respond-to(medium) {
+        flex-direction: row;
+      }
+
+      * {
+        font-family: font(secondary);
+        text-decoration: none;
+        color: color(foreground);
+        @include font-size(45px);
+
+        .is-sticky & {
+          @include font-size(30px);
+        }
+      }
+
+      .socials-networks {
+        margin-left: 5px;
+      }
+
+      .lang {
+        margin: 0 0 0 10px;
+        display: none;
+
+        @include respond-to(medium) {
+          display: block;
+        }
+      }
+    }
+
+    &__secondary {
+      display: flex;
+      justify-content: center;
+
+      .reading-tools {
+        @include respond-to(medium) {
+          margin: 10px 0 0 0;
+        }
+
+        .is-sticky & {
+          margin: 5px 0 0 0;
+          padding-top: 5px;
+        }
+      }
+    }
+  }
+}

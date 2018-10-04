@@ -1,0 +1,318 @@
+{
+  "fr": [
+    {
+      "id": 0,
+      "name": "L'avant départ.",
+      "img": "img/bds/fr/0.jpg",
+      "link": "l-avant-depart"
+    },
+    {
+      "id": 1,
+      "name": "Arrivée à Montréal.",
+      "img": "img/bds/fr/1.jpg",
+      "link": "arrivee-a-montreal"
+    },
+    {
+      "id": 2,
+      "name": "Trajet vers le Cégep.",
+      "img": "img/bds/fr/2.jpg",
+      "link": "trajet-vers-le-cegep"
+    },
+    {
+      "id": 3,
+      "name": "Bad Trip au Cégep.",
+      "img": "img/bds/fr/3.jpg",
+      "link": "bad-trip-au-cegep"
+    },
+    {
+      "id": 4,
+      "name": "Face Palm.",
+      "img": "img/bds/fr/4.jpg",
+      "link": "face-palm"
+    },
+    {
+      "id": 5,
+      "name": "Semaine d'intégration. ",
+      "img": "img/bds/fr/5.jpg",
+      "link": "semaine-d-integration"
+    },
+    {
+      "id": 6,
+      "name": "Concert post rentrée scolaire.",
+      "img": "img/bds/fr/6.jpg",
+      "link": "concert-post-rentree-scolaire"
+    },
+    {
+      "id": 7,
+      "name": "Rentrée scolaire difficile.",
+      "img": "img/bds/fr/7.jpg",
+      "link": "rentree-scolaire-difficile"
+    },
+    {
+      "id": 8,
+      "name": "Remise en question.",
+      "img": "img/bds/fr/8.jpg",
+      "link": "remise-en-question"
+    },
+    {
+      "id": 9,
+      "name": "Mon nom en québécois. ",
+      "img": "img/bds/fr/9.jpg",
+      "link": "mon-nom-en-quebecois"
+    },
+    {
+      "id": 10,
+      "name": "Changement.",
+      "img": "img/bds/fr/10.jpg",
+      "link": "changement"
+    },
+    {
+      "id": 11,
+      "name": "La nourriture.",
+      "img": "img/bds/fr/11.jpg",
+      "link": "la-nourriture"
+    },
+    {
+      "id": 12,
+      "name": "Tempête solaire.",
+      "img": "img/bds/fr/12.jpg",
+      "link": "tempete-solaire"
+    },
+    {
+      "id": 13,
+      "name": "Oculus Rift.",
+      "img": "img/bds/fr/13.jpg",
+      "link": "oculus-rift"
+    },
+    {
+      "id": 14,
+      "name": "Vous êtes bizarres, mais je vous aime.",
+      "img": "img/bds/fr/14.jpg",
+      "link": "vous-etes-bizarres-mais-je-vous-aime"
+    },
+    {
+      "id": 15,
+      "name": "Un week end comme les autres.",
+      "img": "img/bds/fr/15.jpg",
+      "link": "un-week-end-comme-les-autres"
+    },
+    {
+      "id": 16,
+      "name": "Concours de blagues et d'insultes.",
+      "img": "img/bds/fr/16.jpg",
+      "link": "concours-de-blagues-et-d-insultes"
+    },
+    {
+      "id": 17,
+      "name": "Champion.",
+      "img": "img/bds/fr/17.jpg",
+      "link": "champion"
+    },
+    {
+      "id": 18,
+      "name": "Colis.",
+      "img": "img/bds/fr/18.jpg",
+      "link": "colis"
+    },
+    {
+      "id": 19,
+      "name": "Miro.",
+      "img": "img/bds/fr/19.jpg",
+      "link": "miro"
+    },
+    {
+      "id": 20,
+      "name": "Ninja.",
+      "img": "img/bds/fr/20.jpg",
+      "link": "ninja"
+    },
+    {
+      "id": 21,
+      "name": "NYC, le trajet.",
+      "img": "img/bds/fr/21.jpg",
+      "link": "nyc-le-trajet"
+    },
+    {
+      "id": 22,
+      "name": "NYC, premières impressions.",
+      "img": "img/bds/fr/22.jpg",
+      "link": "nyc-premieres-impressions"
+    },
+    {
+      "id": 23,
+      "name": "NYC, tourisme et vadrouille.",
+      "img": "img/bds/fr/23.jpg",
+      "link": "nyc-tourisme-et-vadrouille"
+    },
+    {
+      "id": 24,
+      "name": "NYC, les musées.",
+      "img": "img/bds/fr/24.jpg",
+      "link": "nyc-les-musees"
+    },
+    {
+      "id": 25,
+      "name": "NYC, l'hôtel.",
+      "img": "img/bds/fr/25.jpg",
+      "link": "nyc-l-hotel"
+    },
+    {
+      "id": 26,
+      "name": "Acquisition de la basse.",
+      "img": "img/bds/fr/26.jpg",
+      "link": "acquisition-de-la-basse"
+    },
+    {
+      "id": 27,
+      "name": "Les cours au Québec.",
+      "img": "img/bds/fr/27.jpg",
+      "link": "les-cours-au-quebec"
+    },
+    {
+      "id": 28,
+      "name": "La conception de Noël.",
+      "img": "img/bds/fr/28.jpg",
+      "link": "la-conception-de-noel"
+    },
+    {
+      "id": 29,
+      "name": "Le papier bulle.",
+      "img": "img/bds/fr/29.jpg",
+      "link": "le-papier-bulle"
+    },
+    {
+      "id": 30,
+      "name": "La coiffeuse.",
+      "img": "img/bds/fr/30.jpg",
+      "link": "la-coiffeuse"
+    },
+    {
+      "id": 31,
+      "name": "Loin des yeux loin du coeur.",
+      "img": "img/bds/fr/31.jpg",
+      "link": "loin-des-yeux-loin-du-coeur"
+    },
+    {
+      "id": 32,
+      "name": "Le concours de citrouilles.",
+      "img": "img/bds/fr/32.jpg",
+      "link": "le-concours-de-citrouilles"
+    },
+    {
+      "id": 33,
+      "name": "Hallowween au Québec.",
+      "img": "img/bds/fr/33.jpg",
+      "link": "halloween-au-quebec"
+    },
+    {
+      "id": 34,
+      "name": "La première neige.",
+      "img": "img/bds/fr/34.jpg",
+      "link": "la-premiere-neige"
+    },
+    {
+      "id": 35,
+      "name": "La tasse de lait.",
+      "img": "img/bds/fr/35.jpg",
+      "link": "la-tasse-de-lait"
+    },
+    {
+      "id": 36,
+      "name": "Les soirées films.",
+      "img": "img/bds/fr/36.jpg",
+      "link": "les-soirées-films"
+    },
+    {
+      "id": 37,
+      "name": "Qui-est le plus cool ?",
+      "img": "img/bds/fr/37.jpg",
+      "link": "qui-est-le-plus-cool"
+    }
+  ],
+  "en": [
+    {
+      "id": 0,
+      "name": "Before the departure.",
+      "img": "img/bds/en/0.jpg",
+      "link": "before-the-departure"
+    },
+    {
+      "id": 1,
+      "name": "Arrival at Montréal.",
+      "img": "img/bds/en/1.jpg",
+      "link": "arrival-at-montreal"
+    },
+    {
+      "id": 2,
+      "name": "On the way to CEGEP.",
+      "img": "img/bds/en/2.jpg",
+      "link": "on-the-way-to-cegep"
+    },
+    {
+      "id": 3,
+      "name": "Bad trip at CEGEP.",
+      "img": "img/bds/en/3.jpg",
+      "link": "bad-trip-at-cegep"
+    },
+    {
+      "id": 4,
+      "name": "Face palm.",
+      "img": "img/bds/en/4.jpg",
+      "link": "face-palm"
+    },
+    {
+      "id": 5,
+      "name": "Integration week.",
+      "img": "img/bds/en/5.jpg",
+      "link": "integration-week"
+    },
+    {
+      "id": 6,
+      "name": "Concert before the start of school.",
+      "img": "img/bds/en/6.jpg",
+      "link": "concert-before-start-of-school"
+    },
+    {
+      "id": 7,
+      "name": "Difficult first day at school.",
+      "img": "img/bds/en/7.jpg",
+      "link": "difficult-first-day-at-school"
+    },
+    {
+      "id": 8,
+      "name": "Questioning.",
+      "img": "img/bds/en/8.jpg",
+      "link": "questioning"
+    },
+    {
+      "id": 9,
+      "name": "My name in Québécois.",
+      "img": "img/bds/en/9.jpg",
+      "link": "my-name-in-quebecois"
+    },
+    {
+      "id": 10,
+      "name": "Change.",
+      "img": "img/bds/en/10.jpg",
+      "link": "change"
+    },
+    {
+      "id": 11,
+      "name": "The food.",
+      "img": "img/bds/en/11.jpg",
+      "link": "the-food"
+    },
+    {
+      "id": 12,
+      "name": "Solar storm.",
+      "img": "img/bds/en/12.jpg",
+      "link": "solar-storm"
+    },
+    {
+      "id": 13,
+      "name": "Oculus Rift.",
+      "img": "img/bds/en/13.jpg",
+      "link": "oculus-rift"
+    }
+  ]
+}
